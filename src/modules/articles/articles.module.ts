@@ -4,7 +4,7 @@ import { ArticlesCacheService } from './articles-cache.service';
 import { ArticlesController } from './articles.controller';
 import { ArticlesRepository } from './articles.repository';
 import { ArticlesService } from './articles.service';
-import { ArticleEntity } from './entities/article.entity';
+import { ArticleEntity } from './entities';
 
 @Module({
     imports: [TypeOrmModule.forFeature([ArticleEntity])],

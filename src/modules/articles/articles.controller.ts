@@ -4,8 +4,7 @@ import { Body, Controller, Delete, Get, Param, Patch, Post, Query, UseIntercepto
 import { ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { ArticlesService } from './articles.service';
 import { CreateArticleDto, FindArticlesDto, UpdateArticleDto } from './dtos';
-import { ArticleResponseDto } from './responses/article.response';
-import { FindArticlesResponseDto } from './responses/find-articles.response';
+import { ArticleResponseDto, FindArticlesResponseDto } from './responses';
 
 @ApiTags('Статьи')
 @Guards.Auth()

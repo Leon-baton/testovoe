@@ -1,7 +1,7 @@
 import { RedisService } from '@/common/modules/redis/redis.service';
 import { Injectable, Logger } from '@nestjs/common';
-import { ArticleEntity } from './entities/article.entity';
-import { FindArticlesResponseDto } from './responses/find-articles.response';
+import { ArticleEntity } from './entities';
+import { FindArticlesResponseDto } from './responses';
 
 @Injectable()
 export class ArticlesCacheService {

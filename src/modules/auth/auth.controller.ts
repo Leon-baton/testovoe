@@ -3,9 +3,8 @@ import { Body, Controller, HttpCode, HttpStatus, Post, Req, UseGuards } from '@n
 import { ApiBearerAuth, ApiOkResponse, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { Request } from 'express';
 import { AuthService } from './auth.service';
-import { LoginDto } from './dtos';
-import { RefreshDto } from './dtos/refresh.dto';
-import { LoginResponseDto } from './responses/login.response';
+import { LoginDto, RefreshDto } from './dtos';
+import { LoginResponseDto } from './responses';
 
 @ApiTags('Авторизация')
 @Controller('auth')

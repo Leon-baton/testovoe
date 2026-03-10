@@ -3,7 +3,7 @@ import { ArticlesCacheService } from './articles-cache.service';
 import { ArticlesRepository } from './articles.repository';
 import { CreateArticleDto, FindArticlesDto, UpdateArticleDto } from './dtos';
 import { ArticleEntity } from './entities';
-import { FindArticlesResponseDto } from './responses/find-articles.response';
+import { FindArticlesResponseDto } from './responses';
 
 @Injectable()
 export class ArticlesService {
