@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Between, DataSource, FindOptionsWhere, Like, Repository } from 'typeorm';
 import { FindArticlesDto } from './dtos';
-import { ArticleEntity } from './entities';
+import { ArticleEntity } from './entities/article.entity';
 import { FindArticlesResponseDto } from './responses';
 
 @Injectable()

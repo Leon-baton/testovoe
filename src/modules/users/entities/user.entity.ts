@@ -1,4 +1,4 @@
-import { ArticleEntity } from '@/modules/articles/entities';
+import { ArticleEntity } from '@/modules/articles/entities/article.entity';
 import { Exclude } from 'class-transformer';
 import {
     Column,

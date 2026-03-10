@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { ArticlesCacheService } from './articles-cache.service';
 import { ArticlesRepository } from './articles.repository';
 import { CreateArticleDto, FindArticlesDto, UpdateArticleDto } from './dtos';
-import { ArticleEntity } from './entities';
+import { ArticleEntity } from './entities/article.entity';
 import { FindArticlesResponseDto } from './responses';
 
 @Injectable()
